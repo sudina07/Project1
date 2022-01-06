@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/college_name"
+        android:textColor="@color/purple"
+        android:textSize="40dp"
+        android:id="@+id/tvwelcome"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Browse more pages"
+        android:textColor="@color/purple"
+        android:textSize="40dp"
+        android:id="@+id/tvbrowse"
+        android:layout_below="@+id/tvwelcome"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="home"
+        android:id="@+id/tvhome"
+        android:layout_below="@+id/tvbrowse"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contactus"
+        android:id="@+id/tvcontact"
+        android:layout_below="@+id/tvbrowse"
+        android:layout_toRightOf="@+id/tvhome"/>
+</RelativeLayout>
+
+
+
+
+
+
